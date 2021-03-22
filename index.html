@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>ToDoJS</title>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div id="title">ToDo List</div>
+        <button class="addBtn">+ New</button>
+      </header>
+      <form id="inputs" action="#" hidden>
+        <label for="textInput">Add a new task </label>
+        <input type="text" id="textInput" placeholder="Add Task" />
+        <br />
+        <label for="date">When? </label>
+        <input type="date" id="date" />
+        <br />
+        <label for="checkbox">Add reminder?</label>
+        <input type="checkbox" id="checkbox" />
+        <br />
+        <button type="submit" class="addTaskBtn">Add</button>
+      </form>
+      <br />
+      <div id="buttonSet">
+        <button id="save" hidden>> Save list <</button>
+        <button id="clear" hidden>x Clear list x</button>
+      </div>
+      <div id="main">
+        <h3>Your Tasks Here:</h3>
+        <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+
+        <ul id="list"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

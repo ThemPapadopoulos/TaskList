@@ -1,0 +1,191 @@
+body {
+  margin: auto;
+  width: 75vw;
+  text-align: center;
+  padding: 0;
+}
+
+#container {
+  background-color: cadetblue;
+  border-radius: 10%;
+  margin: 0;
+  filter: drop-shadow(2px 2px 3px black);
+}
+
+#header {
+  margin-top: 1rem;
+  border-radius: 10px 10px 0 0;
+  background-color: cadetblue;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: medium;
+  margin-bottom: 0;
+}
+#title {
+  font-size: 4rem;
+  padding: 2rem;
+  color: whitesmoke;
+}
+
+.addBtn {
+  background-color: green;
+  color: whitesmoke;
+  border: 1px solid gray;
+  font-size: large;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border-bottom: 5px solid gray;
+}
+
+.closeBtn {
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border-bottom: 5px solid gray;
+  border: 1px solid gray;
+}
+
+#inputs {
+  background-color: bisque;
+  padding: 1rem;
+  font-size: x-large;
+  transition-property: height;
+  color: cadetblue;
+}
+#textInput {
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 50%;
+  margin-left: 1rem;
+}
+#date {
+  margin-left: 1rem;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 8rem;
+}
+
+#checkbox {
+  transform: scale(1.5);
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.addTaskBtn {
+  background-color: green;
+  color: whitesmoke;
+  border: none;
+  font-size: medium;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border-bottom: 5px solid gray;
+  border: 1px solid gray;
+}
+
+#main {
+  padding: 1rem;
+  background-color: cadetblue;
+  font-size: large;
+  border-radius: 0 0 10px 10px;
+}
+
+#buttonSet {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+}
+
+#save {
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+  font-size: small;
+  border-radius: 5px;
+  border-bottom: 5px solid gray;
+  border: 1px solid gray;
+}
+#clear {
+  background-color: goldenrod;
+  color: whitesmoke;
+  border: none;
+  font-size: small;
+  border-radius: 5px;
+  right: 0;
+  color: maroon;
+  padding: 0.5rem;
+  border-bottom: 5px solid gray;
+  border: 1px solid gray;
+}
+button:hover {
+  filter: grayscale(100%);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  background-color: whitesmoke;
+  font-size: medium;
+  margin-left: 0;
+  padding: 2rem;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  filter: drop-shadow(2px 2px 3px black);
+}
+
+.taskText {
+  font-size: large;
+  font-weight: 800;
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.taskDate {
+  font-size: medium;
+  font-weight: 400;
+  margin: 0;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  opacity: 0.8;
+  color: green;
+}
+
+.fa-trash {
+  color: whitesmoke;
+  padding: 0.5rem;
+  font-size: small;
+  text-align: end;
+  background-color: red;
+}
+
+.fa-chevron-circle-down {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: medium;
+    margin: auto;
+    width: 100vw;
+    text-align: center;
+    box-sizing: content-box;
+    min-width: 250px;
+  }
+}
